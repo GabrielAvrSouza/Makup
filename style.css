@@ -1,0 +1,258 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.links {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.links a:hover {
+    cursor: pointer;
+    color: rgb(212, 37, 154);
+    transition: 0.5s ease-in-out;
+    font-size: 27px;
+    text-decoration: overline;
+
+}
+
+.links img {
+    height: 100px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+
+
+.caixa-centro {
+    height: 100vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+
+.titulo {
+    font-size: 80px;
+    color: black;
+    padding: 30px;
+
+}
+
+
+button {
+    height: 90px;
+    width: 170px;
+    border-radius: 20px;
+    background-color: rgb(212, 37, 154);
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(139, 11, 101);
+    width: 185px;
+    height: 105px;
+    font-size: 19px;
+    transition: 0.6s ease-out;
+    text-transform: uppercase;
+
+}
+
+.fundo {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.parede {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.perfil {
+    display: flex;
+    position: fixed;
+    right: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagem {
+    height: 700px;
+    margin-top: 50px;
+}
+
+.whatsapp img {
+    height: 68px;
+    width: 70px;
+    position: fixed;
+    top: 0;
+    right: 10px;
+    margin: 20px;
+    margin-top: 28px;
+}
+
+.instagram img {
+    height: 55px;
+    width: 60px;
+    margin: 10px;
+    position: fixed;
+    right: 100px;
+    top: 0;
+    margin: 20px;
+    margin-top: 35px;
+}
+
+.formulario {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    height: 420px;
+    width: 300px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 50px;
+    left: -299px;
+    top: 30%;
+    transition: 1s ease-in-out;
+}
+
+.mascara {
+    visibility: hidden;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(0deg, rgba(10, 9, 11, 0.9920343137254902) 0%, rgba(0, 0, 0, 0.6923144257703081) 61%);
+    transition: 1s ease-in-out;
+}
+
+input {
+    height: 40px;
+    padding-left: 5px;
+    outline-color: rgb(255, 255, 255);
+    background-color: rgba(129, 2, 87, 0.842);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+textarea {
+    height: 190px;
+    padding-left: 5px;
+    outline-color: rgb(255, 255, 255);
+    background-color: rgba(110, 6, 79, 0.842);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.Enviar {
+    height: 100px;
+    margin: 30px;
+    margin-left: 40px;
+    background-color: rgb(161, 8, 92);
+    transition: 1s ease-in-out;
+}
+
+@media (max-width: 1350px) {
+
+
+.fundo {
+    display: flex;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.mascara {
+    display: flex;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%
+}
+
+    p {
+        font-size: 10px;
+        width: 80vw;
+    }
+
+    .perfil {
+        display: flex;
+        flex-direction: column;
+        width: 0px;
+        height: 0px;
+        margin-top: 30%;
+      margin-left: 200px;
+        position: static;
+    }
+
+    .caixa-centro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 120px;
+       
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+  .whatsapp img {
+    width: 42px;
+    height: 44px;
+    right: 45px;
+    margin: 2px;
+    margin-top: 20px;
+  }
+
+  .instagram img {
+    width: 40px;
+    height: 35px;
+    right: 70px;
+    margin-top: 25px;
+  }
+
+
+.links a {
+    display: none;
+}
+
+.links img {
+height: 60px;
+width: auto;
+margin: 10px;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+}
