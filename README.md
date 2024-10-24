@@ -1,6 +1,6 @@
 # Mavih Makeup
 
-![Makeup](https://user-images.githubusercontent.com/000000/00000000.png)
+![Makeup](Captura de tela 2024-05-07 100445.png)
 
 **Mavih Makeup** é um site desenvolvido para uma linha de produtos de maquiagem. O objetivo deste projeto é apresentar a coleção de produtos, com informações detalhadas e uma interface agradável, que proporciona uma experiência de compra online intuitiva.
 
